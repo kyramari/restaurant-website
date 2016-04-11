@@ -17,6 +17,108 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.logo {
+  float: right;
+  width: 100%;
+  max-width: 50%;
+}
+
+header {
+  padding: 1em;
+  background-color: #ccc;
+}
+
+nav ol {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: #333;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav {
+  display: none;
+  background-color: #ccc;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  width: 30px;
+  display: inline-block;
+}
+
+.nav-check:checked ~ .nav-label {
+  color: #fff;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #fff;
+  display: inline;
+}
+
+p {
+  font-size: .5rem;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 45em;
+}
+
+.banner-content h2 {
+  margin: 0;
+}
+
+.banner-content p {
+  margin: 0;
+}
 
 
 @media only screen and (min-width: 25em) {
