@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font: normal 100%/1.3 futura, sans-serif;
 
 }
 
@@ -27,8 +28,8 @@ h1 {
 
 .logo {
   float: right;
-  width: 100%;
   max-width: 50%;
+  max-height: 1em;
 }
 
 header {
@@ -39,6 +40,7 @@ header {
 nav ol {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 nav li {
@@ -50,7 +52,7 @@ nav a {
   padding: .5em .75em;
   color: #333;
   text-decoration: none;
-  list-style-type: none;
+
 }
 
 .nav {
@@ -82,14 +84,15 @@ nav a {
   width: 100%;
 }
 
-h2 {
-  font-size: 2rem;
-  color: #fff;
+.banner h2 {
+  font-family: "Yellowtail", cursive;
+  font-size: 5rem;
+  color: #000;
   display: inline;
 }
 
-p {
-  font-size: .5rem;
+.banner p {
+  font-size: 1.25rem;
 }
 
 .banner {
@@ -100,16 +103,17 @@ p {
 
 .img-flex {
   display: block;
-  width: 100%;
+  width: 250%;
 }
 
 .banner-content {
   position: absolute;
-  bottom: 1.5em;
+  top: 0em;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  max-width: 45em;
+  text-align: center;
+  padding: 1em 3em 1em 3em;
 }
 
 .banner-content h2 {
@@ -120,7 +124,44 @@ p {
   margin: 0;
 }
 
+.btn {
+  display: inline-block;
+  padding: .4em .75em .3em;
+  text-align: center;
+  font-size: 1.125rem;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  margin: 7px;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.cards {
+  max-height: 5em;
+  overflow: hidden;
+  float: left;
+}
+
+.cards a {
+  position: relative;
+}
+
+.cards p {
+  position: absolute;
+  z-index: 10;
+  margin: 0;
+}
+
+.cards img {
+  width: 100%;
+}
+
 
 @media only screen and (min-width: 25em) {
+
 
 }
