@@ -141,6 +141,13 @@ nav a {
 }
 
 .cards {
+  margin-top: 1em;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
   max-height: 5em;
   overflow: hidden;
   float: left;
@@ -152,8 +159,17 @@ nav a {
 
 .cards p {
   position: absolute;
-  z-index: 10;
+  top: 45%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  z-index: 100;
   margin: 0;
+  font-size: 1em;
+  color: #000;
+  font-weight: bold;
 }
 
 .cards img {
