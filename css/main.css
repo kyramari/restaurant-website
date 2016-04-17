@@ -33,7 +33,7 @@ h1 {
 }
 
 header {
-  padding: 1em;
+  padding: 1.3rem;
   background-color: #ccc;
 }
 
@@ -86,13 +86,15 @@ nav a {
 
 .banner h2 {
   font-family: "Yellowtail", cursive;
-  font-size: 5rem;
+  font-size: 4.2087rem;
+  line-height: 5.5250rem;
   color: #000;
   display: inline;
 }
 
 .banner p {
-  font-size: 1.25rem;
+  font-size: 1.3330rem;
+  line-height: 1.9500rem;
 }
 
 .banner {
@@ -113,15 +115,17 @@ nav a {
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
-  padding: 1em 3em 1em 3em;
+  padding: 1.3rem 1.3rem 1.3rem 1.3rem;
 }
 
 .banner-content h2 {
-  margin: 0;
+  margin-top: 1.3rem;
+  margin-bottom: 0;
 }
 
 .banner-content p {
-  margin: 0;
+  margin-top: 1.3rem;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -132,7 +136,7 @@ nav a {
   color: white;
   text-decoration: none;
   background-color: #333;
-  margin: 7px;
+  margin-top: 1.3rem;
 }
 
 .btn:hover {
@@ -148,7 +152,7 @@ nav a {
 .card-2,
 .card-3,
 .card-4 {
-  max-height: 5em;
+  max-height: 3.9rem;
   overflow: hidden;
   float: left;
 }
@@ -159,7 +163,7 @@ nav a {
 
 .cards p {
   position: absolute;
-  top: 45%;
+  top: 35%;
   transform: translateY(-50%);
   left: 50%;
   transform: translateX(-50%);
@@ -167,7 +171,7 @@ nav a {
   text-align: center;
   z-index: 100;
   margin: 0;
-  font-size: 1em;
+  font-size: 1.3330rem;
   color: #000;
   font-weight: bold;
 }
