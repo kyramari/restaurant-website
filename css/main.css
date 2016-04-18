@@ -110,9 +110,9 @@ nav a {
 
 .banner-content {
   position: absolute;
-  top: 0em;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
   padding: 1.3rem 1rem 1.3rem 1rem;
@@ -149,13 +149,13 @@ nav a {
   padding-top: 1.3em;
   background-color: #373334;
   padding-bottom: 1.3rem;
+  overflow: hidden;
 }
 
 .card-1,
 .card-2,
 .card-3,
 .card-4 {
-  max-height: 3.9rem;
   overflow: hidden;
   float: left;
 }
@@ -179,8 +179,13 @@ nav a {
   font-weight: bold;
 }
 
-.cards img {
+.card-small {
   width: 100%;
+  display: block;
+}
+
+.card-big {
+  display: none;
 }
 
 .section-menu-header {
@@ -232,7 +237,8 @@ li {
 }
 
 .section-menu {
-  margin: 0 1.3rem 1.3rem 1.3rem;
+  margin: 0 1.3rem 0 1.3rem;
+  padding-top: 1.3rem;
 }
 
 .section-locations {
@@ -254,11 +260,13 @@ li {
 
 .section-contact {
   text-align: center;
-  margin: 0 1.3rem 1.3rem 1.3rem;
+  margin: 1.3rem 1.3rem 1.3rem 1.3rem;
+  padding-top: 1.3rem;
 }
 
 .section-careers {
-  margin: 0 1.3rem 1.3rem 1.3rem;
+  margin: 1.3rem 1.3rem 1.3rem 1.3rem;
+  padding-top: 1.3rem;
 }
 
 .section-careers h2 {
@@ -319,10 +327,6 @@ footer p {
 
 @media only screen and (min-width: 25em) {
 
-  .banner-content {
-    margin-top: 3rem;
-  }
-
   .section-menu img {
     max-width: 450px;
   }
@@ -340,6 +344,22 @@ footer p {
   footer ol {
     text-align: center;
     margin-left: 1rem;
+  }
+
+  .card-small {
+    display: none;
+  }
+
+  .card-big {
+    display: block;
+    width: 100%;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    width: 50%;
   }
 
 }
