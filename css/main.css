@@ -34,7 +34,7 @@ h1 {
 
 header {
   padding: 1.3rem;
-  background-color: #ccc;
+  background-color: #373334;
 }
 
 nav ol {
@@ -50,14 +50,14 @@ nav li {
 nav a {
   display: block;
   padding: .5em .75em;
-  color: #333;
+  color: #fff;
   text-decoration: none;
 
 }
 
 .nav {
   display: none;
-  background-color: #ccc;
+  background-color: #373334;
 }
 
 .nav-check:checked ~ .nav {
@@ -88,7 +88,7 @@ nav a {
   font-family: "Yellowtail", cursive;
   font-size: 4.2087rem;
   line-height: 5.5250rem;
-  color: #000;
+  color: #fff;
   display: inline;
 }
 
@@ -115,7 +115,7 @@ nav a {
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
-  padding: 1.3rem 1.3rem 1.3rem 1.3rem;
+  padding: 1.3rem 1rem 1.3rem 1rem;
 }
 
 .banner-content h2 {
@@ -126,6 +126,7 @@ nav a {
 .banner-content p {
   margin-top: 1.3rem;
   margin-bottom: 0;
+  color: #fff;
 }
 
 .btn {
@@ -133,19 +134,21 @@ nav a {
   padding: .4em .75em .3em;
   text-align: center;
   font-size: 1.125rem;
-  color: white;
+  color: #373334;
   text-decoration: none;
-  background-color: #333;
+  background-color: #fff;
   margin-top: 1.3rem;
 }
 
 .btn:hover {
-  background-color: #000;
-  border-color: #000;
+  background-color: #373334;
+  color: #fff;
 }
 
 .cards {
-  margin-top: 1em;
+  padding-top: 1.3em;
+  background-color: #373334;
+  padding-bottom: 1.3rem;
 }
 
 .card-1,
@@ -172,7 +175,7 @@ nav a {
   z-index: 100;
   margin: 0;
   font-size: 1.3330rem;
-  color: #000;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -180,6 +183,96 @@ nav a {
   width: 100%;
 }
 
+.section-menu-header {
+  text-align: center;
+}
+
+section {
+  margin: 0 1.3rem 1.3rem 1.3rem;
+}
+
+section h2 {
+  font-family: "Yellowtail", cursive;
+  font-size: 2.3686rem;
+  line-height: 3.2500rem;
+  color: #373334;
+}
+
+.section-menu-header p {
+  margin: 0;
+}
+
+h3 {
+  color: #782F40;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0 1.3rem 0 1.3rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.section-menu img {
+  max-width: 280px;
+  margin-bottom: 2.6rem;
+}
+
+.section-menu {
+  border-bottom: 6px;
+  border-color: #bcdca5;
+}
+
+.section-locations-header h2 {
+  text-align: center;
+}
+
+.section-contact {
+  text-align: center;
+}
+
+.section-careers h2 {
+  text-align: center;
+}
+
+.section-contact-info li {
+  color: #782F40;
+  margin-bottom: 1.3rem;
+}
+
+.section-contact-info li:hover {
+  color: #373334;
+}
+
+.section-careers img {
+  max-width: 280px;
+  margin-bottom: 2.6rem;
+}
+
+footer {
+  background-color: #373334;
+  margin: 0;
+  padding: 1.3rem;
+}
+
+footer ol {
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer li {
+  margin-bottom: 1.3rem;
+}
 
 @media only screen and (min-width: 25em) {
 
