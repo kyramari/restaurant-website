@@ -173,7 +173,7 @@ nav a {
   width: 100%;
   text-align: center;
   z-index: 100;
-  margin: 0;
+  margin: 0 0 1.3rem 0;
   font-size: 1.3330rem;
   color: #fff;
   font-weight: bold;
@@ -187,7 +187,7 @@ nav a {
   text-align: center;
 }
 
-section {
+.section-menu {
   margin: 0 1.3rem 1.3rem 1.3rem;
 }
 
@@ -221,19 +221,44 @@ li {
 .section-menu img {
   max-width: 280px;
   margin-bottom: 2.6rem;
+  width: 100%;
 }
 
 .section-menu {
+  margin-top: 1.3rem;
   border-bottom: 6px;
   border-color: #bcdca5;
+  clear: both;
+}
+
+.section-menu {
+  margin: 0 1.3rem 1.3rem 1.3rem;
+}
+
+.section-locations {
+  margin: 0 1.3rem 1.3rem 1.3rem;
 }
 
 .section-locations-header h2 {
   text-align: center;
 }
 
+.section-locations img {
+  max-width: 280px;
+    width: 100%;
+}
+
+.locations-img {
+  text-align: center;
+}
+
 .section-contact {
   text-align: center;
+  margin: 0 1.3rem 1.3rem 1.3rem;
+}
+
+.section-careers {
+  margin: 0 1.3rem 1.3rem 1.3rem;
 }
 
 .section-careers h2 {
@@ -250,8 +275,9 @@ li {
 }
 
 .section-careers img {
-  max-width: 280px;
+  max-width: 500px;
   margin-bottom: 2.6rem;
+    width: 100%;
 }
 
 footer {
@@ -274,7 +300,46 @@ footer li {
   margin-bottom: 1.3rem;
 }
 
+footer img {
+  max-width: 3rem;
+}
+
+.footer-icons {
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+small {
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
+
 @media only screen and (min-width: 25em) {
 
+  .banner-content {
+    margin-top: 3rem;
+  }
+
+  .section-menu img {
+    max-width: 450px;
+  }
+
+  .section-locations img {
+    max-width: 450px;
+  }
+
+  footer li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  footer ol {
+    text-align: center;
+    margin-left: 1rem;
+  }
 
 }
