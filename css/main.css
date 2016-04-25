@@ -112,6 +112,7 @@ nav a {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
@@ -173,8 +174,10 @@ nav a {
 .cards p {
   position: absolute;
   top: 35%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
