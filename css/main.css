@@ -86,8 +86,8 @@ nav a {
 
 .banner h2 {
   font-family: "Yellowtail", cursive;
-  font-size: 4.2087rem;
-  line-height: 5.5250rem;
+  font-size: 3.5rem;
+  line-height: 5rem;
   color: #fff;
   display: inline;
 }
@@ -453,6 +453,14 @@ footer p {
 
   .banner-content h2 {
     font-size: 5rem;
+  }
+
+  .nav-label {
+    display:none;
+  }
+
+  .nav {
+    display: block;
   }
 
 }
